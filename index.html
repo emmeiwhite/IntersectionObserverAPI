@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intersection Observer API</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Home</h1>
+    </nav>
+    <header>
+      <h2>I am the Hero Section</h2>
+    </header>
+
+    <main>I am main section</main>
+
+    <article>
+      <h2>
+        Besides me is my cute sister, Junior Developer Rafia, taking inspiration
+        from me
+      </h2>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    color: white;
+  }
+
+  body {
+    position: relative;
+  }
+  nav {
+    height: 90px;
+    background-color: teal;
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  header {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(241, 152, 42);
+    padding: 3rem;
+  }
+
+  main {
+    min-height: 50vh;
+    background-color: brown;
+    padding: 1rem;
+  }
+
+  article {
+    height: 80vh;
+    padding: 2rem;
+    background-color: black;
+  }
+
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+</style>
